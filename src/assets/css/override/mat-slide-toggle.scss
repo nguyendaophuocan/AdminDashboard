@@ -1,0 +1,29 @@
+
+.mat-slide-toggle-bar {
+    width: 25px !important;
+    height: 16px !important;    
+    background-color: $gray_background;
+}
+
+.mat-slide-toggle-thumb {
+    height: 12px !important;
+    width: 12px !important;
+}
+
+.mat-slide-toggle.mat-checked .mat-slide-toggle-thumb-container {
+    transform: translate3d(12px, 0, 0) !important;
+    padding-right: 2px;
+    padding-left: 0px;
+}
+
+.mat-slide-toggle-thumb-container {
+    top: 2px !important;
+    padding-left: 2px;
+}
+
+.mat-slide-toggle.mat-primary.mat-checked .mat-slide-toggle-bar {
+    background-color: $blue_color;
+}
+.mat-slide-toggle.mat-primary.mat-checked .mat-slide-toggle-thumb {
+    background-color: white;
+}

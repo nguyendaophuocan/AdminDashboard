@@ -1,0 +1,48 @@
+@import './_variables';
+.btn-creation {
+  text-transform: uppercase;
+  border-radius: 20px;
+  background: $blue_color;
+  color: #fff;
+  font-size: 11px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin-left: 15px;
+
+  .plus {
+    margin-right: 8px;
+    font-size: 20px;
+  }
+}
+
+::ng-deep .mat-menu-panel.creation-mat-menu {
+  margin-top: 30px;
+  position: relative;
+  .btn-close {
+    cursor: pointer;
+    &:before, &:after  {
+      content: '';
+      position: absolute;
+      background: $gray;
+    }
+    &:before {
+      top: 8px;
+      right: 14px;
+      width: 2px;
+      height: 16px;
+      transform: rotate(45deg);
+    }
+    &:after {
+      top: 15px;
+      right: 7px;
+      width: 16px;
+      height: 2px;
+      transform: rotate(45deg);
+    }
+  }
+  .mat-menu-content {
+    padding-bottom: 0;
+  }
+}

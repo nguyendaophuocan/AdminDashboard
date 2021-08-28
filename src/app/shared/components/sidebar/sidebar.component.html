@@ -1,0 +1,30 @@
+<mat-nav-list>
+    <div class="profile-card">
+        <div class="header">
+            <h2>username</h2>
+            <h4>example@email.com</h4>
+        </div>
+        <img src="https://www.jea.com/cdn/images/avatar/avatar-alt.svg" >
+    </div>
+
+    <mat-divider></mat-divider>
+
+    <h2 matSubheader>Pages</h2>
+
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/">Dashboard</a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/users">Users</a>
+    <mat-divider></mat-divider>
+
+    <h2 matSubheader>Tools</h2>
+
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/contacts">
+        <mat-icon>import_contacts</mat-icon>
+        Option1
+    </a>
+
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/contacts">
+        <mat-icon>contact_phone</mat-icon>
+        Option2
+    </a>
+
+</mat-nav-list>

@@ -1,0 +1,78 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+mat-drawer {
+  width: 350px;
+}
+
+mat-drawer-container {
+  height: 100%;
+}
+
+mat-drawer-content {
+  padding: 20px;
+}
+
+.menu-item-list {
+  display: flex;
+  flex-direction: column;
+  width: 50px;
+  height: 50vh;
+}
+
+.icon {
+  color: #d2d3d4;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.menu-item-list-bottom {
+  height: 50vh;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.btn:focus {
+  background-color: #17a2b8;
+}
+
+.btn:hover {
+  background-color: #17a2b8;
+}
+
+.main-content {
+  margin-left: 20px;
+  width: 100%;
+}
+
+.group-title {
+  font-weight: 500;
+}
+
+.sub-menu-group-list {
+  > span {
+    margin-top: 10px;
+    color: #212528;
+  }
+  span:hover {
+    cursor: pointer;
+    border-radius: 0.25rem;
+    background-color: lightgray;
+  }
+}
+
+.card-body {
+  min-width: 200px;
+  min-height: 100vh;
+}
+
+.group-menu {
+  width: 150px;
+}

@@ -1,0 +1,9 @@
+@import "variables";
+
+@mixin md-icon-size($size: 24px, $color: $gray2) {
+  font-size: $size;
+  height: $size;
+  width: $size;
+  line-height: $size;
+  color: $color;
+}
